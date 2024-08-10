@@ -1,8 +1,8 @@
 # kernel-themes
-A set of themes designed to be run with [kernel](kernel.fish) and [kernel-theme-loader](https://github.com/EastArctica/kernel-theme-loader).
+A set of themes designed to be run with [kernel](https://kernel.fish) and [kernel-theme-loader](https://github.com/EastArctica/kernel-theme-loader).
 
 # Installation
-1. Install [kernel](kernel.fish)
+1. Install [kernel](https://kernel.fish)
 2. Add the [kernel-theme-loader](https://github.com/EastArctica/kernel-theme-loader) module
 3. Place themes in `~/.config/kernel/themes/your-theme/`
 
