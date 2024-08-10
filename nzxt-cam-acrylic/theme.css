@@ -1,0 +1,67 @@
+body,
+[class$="-Component-nav"],
+[class$="-Component-app"],
+/* Splash screen */
+div#content  {
+    background-color: transparent !important;
+}
+
+/* System Specs Tab */
+[class$="-Component-specDetail"],
+[class$="-TextField-container-Component-descriptionTextField"],
+[class$="-TextField-container-Component-textField"] {
+    background-color: rgba(18, 18, 20, 0.3) !important;
+}
+
+[class$="-LEDChannel-channelContainer"],
+[class$="-LEDChannel-detailsTopBar"],
+[class$="-LEDChannel-pane"],
+[class$="-Component-channelContainer"],
+[class$="-Component-detailsTopBar"],
+[class$="-Component-pane"],
+[class$="-TextField-prompt-TextField-promptTextArea-Component-textAreaInput"],
+[class$="-TextField-prompt-Component-textFieldInput"],
+[class$="-menu"] [class$="-option"],
+[class$="-Component-addContainer"] {
+    background-color: transparent !important;
+}
+
+/* Transparency will stack for the pane */
+[class$="-LEDChannel-details"],
+[class$="-Component-details"],
+[class$="-DeviceRowStatus-deviceContainer"],
+[class$="-ProcessRow-sorted"],
+[class$="-ProcessRow-hovering"] td,
+[class$="-Component-sorted"] {
+    background-color: rgba(26, 28, 30, 0.5) !important;
+}
+
+[class$="-menu"] {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+[class$="-menu"] div[class$="-addContainer"] {
+    border-top: 0px !important;
+}
+
+[class$="-Component-card-Component-description"],
+[class$="-Component-card"] {
+    background-color: rgba(33, 25, 37, 0.3) !important;
+    border: none !important;
+}
+
+[class$="-Component-titlebar-Component-draggable"],
+[class$="-control"] {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+
+
+/*
+TODO:
+ - Profile dropdowns need better hovering
+ - Color selection (Hover and click menu)
+ - Slider bar (ex. Settings -> Mini Mode
+ - Splash screen loading bar?
+ - Generally everywhere needs better contrast, currently it's all very hard to read
+*/

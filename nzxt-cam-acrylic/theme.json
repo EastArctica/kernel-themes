@@ -1,0 +1,12 @@
+{
+    "name": "NZXT CAM Acrylic",
+    "version": "1.0.0",
+    "author": {
+        "name": "East_Arctica",
+        "github": "EastArctica",
+        "discord": 573613510060146708
+    },
+    "source": "https://github.com/EastArctica/kernel-themes/",
+    "description": "Acrylic theme for NZXT CAM",
+    "match": ".*NZXT CAM.exe"
+}
